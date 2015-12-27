@@ -22,3 +22,6 @@ google_plus_id:  108123848014597674970
 markdown: kramdown
 
 comments: true
+
+sass:
+    style: compressed
