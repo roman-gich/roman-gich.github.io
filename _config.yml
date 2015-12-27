@@ -8,6 +8,7 @@
 # Site settings
 title: Roman Gich
 email: roman.gich@gmail.com
+meta_description: Roman Gich's Blog - some useful posts about Linux, LAMP, PHP, JS etc
 description: > # this means to ignore newlines until "baseurl:"
   Hi Everyone! I'm web developer from Kiev, Ukraine. 
   You can find on my blog some useful posts about Linux, LAMP, PHP, JS etc.
