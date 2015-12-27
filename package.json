@@ -1,0 +1,12 @@
+{
+  "name": "roman-gich.github.io",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/roman-gich/roman-gich.github.io.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.9.2"
+  }
+}
