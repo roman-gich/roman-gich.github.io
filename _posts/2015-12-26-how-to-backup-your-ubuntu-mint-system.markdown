@@ -8,13 +8,13 @@ As we know, people can be divided into two groups: <span style="text-decoration:
 I've become the last one after several crashes and if you're reading it I suppose that you've become it too.
 
 Firstly, go to the user's folder and create a directory for the backup and also a bash script.
-<pre><code class="bash">cd ~
+{% highlight bash %}cd ~
 mkdir Backup
 mkdir Backup/mnt
-touch backup.sh</code></pre>
+touch backup.sh{% endhighlight %}
 <h3>Let's take a look at the script code now!</h3>
 The script must begin with a shebang, such as #!/bin/bash. 
-<pre><code class="bash">#!/bin/bash
+{% highlight bash %}#!/bin/bash
 
 apt-get autoclean
 apt-get autoremove
@@ -55,6 +55,6 @@ files_count=`find . -type f -name "backup_*.tar.gz" | wc -l`
 if [ $files_count -gt 5 ] ; then rm `ls -v backup_*.tar.gz | head -n 1`; fi
 
 cd ../
-umount mnt/</code></pre>
+umount mnt/{% endhighlight %}
 
 For more functionality you can add it to the crontab. I hope this will help.
