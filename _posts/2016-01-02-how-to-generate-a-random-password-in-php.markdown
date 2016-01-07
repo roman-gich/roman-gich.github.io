@@ -43,7 +43,7 @@ function generatePassword($digits, $upper, $lower, $special, $random, $length) {
 
 echo generatePassword(true, true, false, false, true, 8) . "\n";
 echo generatePassword(true, true, true, false, true, 8) . "\n";
-echo generatePassword(true, true, true, true, true, 10);
+echo generatePassword(true, true, true, true, true, 10) . "\n";
 echo generatePassword(true, true, true, true, false, 10);
 
 ?>{% endhighlight %}
