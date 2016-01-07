@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to find the number of days between two dates using PHP?"
+title:  "Getting the number of days between two dates using PHP?"
 date:   2016-01-01 23:15:00 +0200
 ---
 
